@@ -1,0 +1,86 @@
+{
+	"info": {
+		"_postman_id": "05154995-e4ea-4720-afd1-b81ddc9c9a89",
+		"name": "effortless-express",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get user by Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:2000/users/12",
+					"host": [
+						"localhost"
+					],
+					"port": "2000",
+					"path": [
+						"users",
+						"12"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:2000/users/",
+					"host": [
+						"localhost"
+					],
+					"port": "2000",
+					"path": [
+						"users",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get places",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:2000/places/",
+					"host": [
+						"localhost"
+					],
+					"port": "2000",
+					"path": [
+						"places",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get places by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:2000/places/12",
+					"host": [
+						"localhost"
+					],
+					"port": "2000",
+					"path": [
+						"places",
+						"12"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
