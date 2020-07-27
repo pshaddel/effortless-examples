@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const effortlessExpress = require('../../../MyPackages/efforless-express');
+const effortlessExpress = require('effortless-express');
 
 app.use(effortlessExpress);
 
